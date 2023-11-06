@@ -207,6 +207,74 @@ html,body{
     margin-bottom: 1vw;
     
 }
-#secpic{
-    width: 25vw;
+#secbox{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+#bimg{
+    width: 65%;
+    height: 60vh;
+    background-color: yellow;
+}
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#btext{
+    width: 35%;
+    padding: 0px 3vw;
+
+}
+#btext h1{
+    font-size: 3vw;
+    font-weight: 500;
+    letter-spacing: -.1vw;
+    line-height: 1;
+}
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+#future iframe{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 100%;
+     height: 100%;
+     
+}
+#ftext{
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#ftext button{
+    margin-top: 10px;
+    padding: 1vw 1.3vw;
+    font-size: .9vw;
+    font-weight: 700;
+    border-radius: 100px;
+     border: 1px solid rgb(83, 74, 74);
+     background-color: white;
+     color: rgb(59, 52, 52);
 }
